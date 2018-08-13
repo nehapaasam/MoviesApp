@@ -9,7 +9,7 @@ app.use(function(req, res, next) {
       res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
       next();
  });
-
+// function
 gulp.task('express', function() {
     var server = app.listen(3000, function() {
         console.log("Server is running at 3000");
